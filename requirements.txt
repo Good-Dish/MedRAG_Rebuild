@@ -1,0 +1,8 @@
+faiss_cpu
+jieba
+numpy
+openai
+py2neo
+PyYAML
+sentence_transformers
+tqdm
