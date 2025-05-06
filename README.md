@@ -45,7 +45,7 @@ pip install -r requirements.txt
 python main.py --query your_symptoms
 ``````
 
-> 为了达到关键词提取的效果，请将您的症状以**中文、词组、用“，”分隔开的形式赋值给'your_symtoms' **. 
+> 为了达到关键词提取的效果，请将您的症状以**中文、词组、用“，”分隔开的形式**赋值给'your_symtoms'. 
 
 ## ✅To-Do
 
