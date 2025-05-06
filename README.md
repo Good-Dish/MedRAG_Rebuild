@@ -9,7 +9,7 @@
 - 添加*构建知识图谱*部分
 - 使用FAISS方法匹配输入关键字和症状节点（而不是余弦相似度）
 
-## 📢 Acknowledgments of ReferencesREADME_ENG.md
+## 📢 Acknowledgments of References
 
 - `utils\logger.py`来自 [CONTHO_RELEASE/lib/core/logger.py](https://github.com/dqj5182/CONTHO_RELEASE/blob/main/lib/core/logger.py)
 - `data\medical_default.json`是通过对[KnowledgeGraphBeginner/2.medicalKnowledgeGraph/data/medical.json](https://github.com/JesseYule/KnowledgeGraphBeginner/blob/main/2.medicalKnowledgeGraph/data/medical.json)进行修改得到的
