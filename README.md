@@ -1,6 +1,6 @@
 # 😎MedRAG-Rebuild
 
-**这是一个关于[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://github.com/SNOWTEAM2023/MedRAG). ([paper](https://arxiv.org/abs/2502.04413))的复制实现**
+**这是一个关于[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://github.com/SNOWTEAM2023/MedRAG). ([paper](https://arxiv.org/abs/2502.04413))的复制实现，只完成原文基本的技术功能，不负责医学问答的临床准确性**
 
 ## 🚀 Features
 
