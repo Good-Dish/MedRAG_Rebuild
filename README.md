@@ -1,6 +1,6 @@
 # 😎MedRAG-Rebuild
 
-**这是一个关于[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://github.com/SNOWTEAM2023/MedRAG). ([paper](https://arxiv.org/abs/2502.04413))的复制实现**
+**这是一个关于[MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot](https://github.com/SNOWTEAM2023/MedRAG). ([paper](https://arxiv.org/abs/2502.04413))的复制实现，只完成原文基本的技术功能，不负责医学问答的临床准确性**
 
 ## 🚀 Features
 
@@ -9,7 +9,7 @@
 - 添加*构建知识图谱*部分
 - 使用FAISS方法匹配输入关键字和症状节点（而不是余弦相似度）
 
-## 📢 Acknowledgments of ReferencesREADME_ENG.md
+## 📢 Acknowledgments of References
 
 - `utils\logger.py`来自 [CONTHO_RELEASE/lib/core/logger.py](https://github.com/dqj5182/CONTHO_RELEASE/blob/main/lib/core/logger.py)
 - `data\medical_default.json`是通过对[KnowledgeGraphBeginner/2.medicalKnowledgeGraph/data/medical.json](https://github.com/JesseYule/KnowledgeGraphBeginner/blob/main/2.medicalKnowledgeGraph/data/medical.json)进行修改得到的
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 python main.py --query your_symptoms
 ``````
 
-> 为了达到关键词提取的效果，请将您的症状以**中文、词组、用“，”分隔开的形式赋值给'your_symtoms' **. 
+> 为了达到关键词提取的效果，请将您的症状以**中文、词组、用“，”分隔开的形式**赋值给'your_symtoms'. 
 
 ## ✅To-Do
 
